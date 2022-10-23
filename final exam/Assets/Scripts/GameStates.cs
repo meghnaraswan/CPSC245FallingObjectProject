@@ -7,7 +7,6 @@ public class GameStates : MonoBehaviour
     public enum StateType
     {
         Play,
-        CountingDown,
         Paused,
         Reset,
     }
