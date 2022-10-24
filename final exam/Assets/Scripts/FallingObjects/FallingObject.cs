@@ -14,7 +14,6 @@ public class FallingObject : MonoBehaviour
     private float moveDistance = 0.1f;
     private int randomMoveCount = 0;
     private int randomDirection = 0;
-   
     void Start()
     {
         

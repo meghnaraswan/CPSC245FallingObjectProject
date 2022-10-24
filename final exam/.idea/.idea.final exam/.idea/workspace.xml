@@ -3,18 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7509321b-2278-43fc-9031-b3c9cd9e8579" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.final exam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.final exam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Countdown.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Countdown.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FallingObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FallingObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameStates.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameStates.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenu.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPlacer1.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ObjectPlacer1.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShowGameResults.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ShowGameResults.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FallingObject.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/FallingObject.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FallingObjects/FallingObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FallingObjects/FallingObject.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +23,9 @@
     <setting file="file://$USER_HOME$/Desktop/Testing Scripts/MoonshineDropper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/Testing Scripts/ObjectPlacer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/Testing Scripts/SpriteTools.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FallingObjects/Collision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FallingObjects/DelayedObjectPlacer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FallingObjects/FallingObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FallingObjects/ImageTools.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FallingObjects/ObjectDropper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FallingObjects/ObjectPlacer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenPositionTools.cs" root0="FORCE_HIGHLIGHTING" />
@@ -51,6 +41,7 @@
     <setting file="file://$USER_HOME$/Downloads/StopwatchExample/StopwatchExample/Assets/Scripts/StopwatchState.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/StopwatchExample/StopwatchExample/Assets/Scripts/Timer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Downloads/TriggerRestart.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/FinalExamPractice/Assets/Scripts/FallingObject/FallingObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Timer/Assets/scripts/StopwatchStates.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -112,6 +103,7 @@
       <workItem from="1666192705174" duration="1095000" />
       <workItem from="1666193885296" duration="1000" />
       <workItem from="1666553536997" duration="3312000" />
+      <workItem from="1666573537993" duration="279000" />
     </task>
     <servers />
   </component>
