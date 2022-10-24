@@ -18,6 +18,6 @@ public class ScreenPositionTools : MonoBehaviour
 
         //float randomX = Random.Range(-500, 500);
 
-        return new Vector3(randomX,1000,0);
+        return new Vector3(randomX,850,0);
     }
 }
