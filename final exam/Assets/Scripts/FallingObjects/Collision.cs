@@ -5,7 +5,7 @@ using UnityEngine;
 public class Collision : MonoBehaviour
 {
     private int count;
-    private GameControllerNew gameControllerNew;
+    public GameControllerNew gameControllerNew;
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
@@ -13,7 +13,7 @@ public class Collision : MonoBehaviour
         count = count + 1;
 
         // Run the GameController function for picking up a collectible
-        gameControllerNew = new GameControllerNew();
+        //gameControllerNew = new GameControllerNew();
         gameControllerNew.OnPickUpFallingObject(count);
         Debug.Log("Collision: colliding");
     }
