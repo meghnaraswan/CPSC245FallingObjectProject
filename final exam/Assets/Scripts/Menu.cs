@@ -18,13 +18,25 @@ public class Menu : MonoBehaviour
 
     //}
 
-    public void LoadScene()
+    //public void LoadScene()
+    //{
+    //    SceneManager.LoadScene("CountdownScene");
+    //}
+    //public void QuitScene()
+    //{
+    //    Application.Quit();
+    //}
+
+    public void Update()
     {
-        SceneManager.LoadScene("CountdownScene");
-    }
-    public void QuitScene()
-    {
-        Application.Quit();
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            SceneManager.LoadScene("CountdownScene");
+        }
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
     }
 
     //public void LoadScene()
