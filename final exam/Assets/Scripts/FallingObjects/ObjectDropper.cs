@@ -24,6 +24,6 @@ public class ObjectDropper : DelayedObjectPlacer
     public override void Create()
     {
         base.Create();
-        GameObject moonshine = Instantiate(Prefab, ScreenPositionTools.RandomTopOfScreenWorldLocation(Camera), Quaternion.identity);
+        GameObject moonshine = Instantiate(Prefab, ScreenPositionTools.RandomTopOfScreenWorldLocation(Camera), Quaternion.identity, GameObject.FindGameObjectWithTag("Panel").transform);
     }
 }

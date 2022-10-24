@@ -4,34 +4,18 @@ using UnityEngine;
 
 public class ScreenPositionTools : MonoBehaviour
 {
-    public static Vector3 RandomWorldLocation(Camera camera)
-    {
-        Vector3 screenLocation = RandomScreenLocation();
-        Vector3 worldLocation = camera.ScreenToWorldPoint(screenLocation);
-
-        return worldLocation;
-    }
-
     public static Vector3 RandomTopOfScreenWorldLocation(Camera camera)
     {
         Vector3 screenLocation = RandomTopOfScreenLocation();
-        Vector3 worldLocation = camera.ScreenToWorldPoint(screenLocation);
-
-        return worldLocation;
-    }
-
-    public static Vector3 RandomScreenLocation()
-    {
-        float randomX = Random.Range(0, Screen.width);
-        float randomY = Random.Range(0, Screen.height);
-
-        return new Vector3(randomX, randomY, 10);
+        
+        Debug.Log(screenLocation);
+        return screenLocation;
     }
 
     public static Vector3 RandomTopOfScreenLocation()
     {
-        float randomX = Random.Range(0, Screen.width);
+        float randomX = Random.Range(-356, 378);
 
-        return new Vector3(randomX, Screen.height, 10);
+        return new Vector3(randomX,300,0);
     }
 }

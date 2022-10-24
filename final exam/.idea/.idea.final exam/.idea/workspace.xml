@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="7509321b-2278-43fc-9031-b3c9cd9e8579" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.final exam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.final exam/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/FallingObject.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/FallingObject.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FallingObjects/FallingObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FallingObjects/FallingObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FallingObjects/ObjectDropper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FallingObjects/ObjectDropper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ScreenPositionTools.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ScreenPositionTools.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +106,11 @@
       <workItem from="1666192705174" duration="1095000" />
       <workItem from="1666193885296" duration="1000" />
       <workItem from="1666553536997" duration="3312000" />
-      <workItem from="1666573537993" duration="279000" />
+      <workItem from="1666573537993" duration="770000" />
+      <workItem from="1666575210984" duration="606000" />
+      <workItem from="1666575838327" duration="10000" />
+      <workItem from="1666575860855" duration="15000" />
+      <workItem from="1666575901264" duration="1531000" />
     </task>
     <servers />
   </component>
