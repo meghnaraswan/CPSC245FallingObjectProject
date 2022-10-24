@@ -42,21 +42,20 @@ public class PlayerControllerNew : MonoBehaviour
 
 	// When this game object intersects a collider with 'is trigger' checked, 
 	// store a reference to that collider in a variable named 'other'..
-	void OnTriggerEnter(Collider other)
-	{
-		// ..and if the game object we intersect has the tag 'Pick Up' assigned to it..
-		if (other.gameObject.name == "FallingObject(Clone)")
-		{
 
-			// Add one to the score variable 'count'
-			count = count + 1;
+	//void OnTriggerEnter(Collider other)
+	//{
+	//	// ..and if the game object we intersect has the tag 'Pick Up' assigned to it..
+	//	if (other.gameObject.name == "FallingObject(Clone)")
+	//	{
 
-			// Run the GameController function for picking up a collectible
-			gameControllerNew.OnPickUpFallingObject(count);
+	//		// Add one to the score variable 'count'
+	//		count = count + 1;
 
-			Debug.Log("PlayerControllerNew: colliding");
-		}
-	}
+	//		// Run the GameController function for picking up a collectible
+	//		gameControllerNew.OnPickUpFallingObject(count);
 
-
+	//		Debug.Log("PlayerControllerNew: colliding");
+	//	}
+	//}
 }

@@ -14,10 +14,10 @@ public class ScreenPositionTools : MonoBehaviour
 
     public static Vector3 RandomTopOfScreenLocation()
     {
-        float randomX = Random.Range(0, 1500);
+        float randomX = Random.Range(50, 1000);
 
         //float randomX = Random.Range(-500, 500);
 
-        return new Vector3(randomX,850,0);
+        return new Vector3(randomX,750,0);
     }
 }
