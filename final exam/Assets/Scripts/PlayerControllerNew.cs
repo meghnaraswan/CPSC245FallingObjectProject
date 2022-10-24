@@ -23,7 +23,8 @@ public class PlayerControllerNew : MonoBehaviour
 
 		// ..and if the game object we intersect has the tag 'FallingObject' assigned to it..
 		//if (other.gameObject.CompareTag("FallingObject"))
-		if (other.gameObject.name == "FallingObject(Clone)")
+		//if (other.gameObject.name == "FallingObject(Clone)")
+		if (other.gameObject.CompareTag("FallingObject"))
 		{
 			// Make the other game object (the pick up) inactive, to make it disappear
 			//other.gameObject.SetActive(false);
