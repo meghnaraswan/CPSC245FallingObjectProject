@@ -13,14 +13,14 @@ public class GameControllerNew : MonoBehaviour
     };
     private GameViewNew gameViewNew;
     private GameStatesN gameState;
-    private int maxCollectiblesCount;
+    //private int maxCollectiblesCount;
 
     // Start is called before the first frame update
     void Start()
     {
         gameViewNew = GetComponentInChildren<GameViewNew>();
         gameState = GameStatesN.GamePlaying;
-        maxCollectiblesCount = GameObject.FindGameObjectsWithTag("FallingObject").Length;
+        //maxCollectiblesCount = GameObject.FindGameObjectsWithTag("FallingObject").Length;
     }
 
     private void OnGameWon()
@@ -82,11 +82,12 @@ public class GameControllerNew : MonoBehaviour
     public void OnPickUpFallingObject(int playerCollectibleCount)
     {
         gameViewNew.SetCountText(playerCollectibleCount);
+
         //Check if our 'count' is equal to or exceeded our maxCollectibles count
-        if (playerCollectibleCount >= maxCollectiblesCount)
-        {
-            StateUpdate(GameStatesN.GameWon);
-        }
+        //if (playerCollectibleCount >= maxCollectiblesCount)
+        //{
+        //    StateUpdate(GameStatesN.GameWon);
+        //}
     }
 
     public void UpdateGameTimer(int timerCount)

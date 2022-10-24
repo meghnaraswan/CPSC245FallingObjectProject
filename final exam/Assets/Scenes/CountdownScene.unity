@@ -396,6 +396,7 @@ GameObject:
   - component: {fileID: 1813046133}
   - component: {fileID: 1813046135}
   - component: {fileID: 1813046134}
+  - component: {fileID: 1813046136}
   m_Layer: 5
   m_Name: Countdown
   m_TagString: Untagged
@@ -465,6 +466,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1813046132}
   m_CullTransparentMesh: 1
+--- !u!114 &1813046136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813046132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d44a2fb3d2a3846958929577ae970a76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 1813046134}
 --- !u!1 &2121012233
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,9 +11,13 @@ public class FallingObject : MonoBehaviour
 {
     public Image fallingObject;
 
+    private int count;
+    private GameControllerNew gameControllerNew;
+
     private float moveDistance = 0.1f;
     private int randomMoveCount = 0;
     private int randomDirection = 0;
+
     void Start()
     {
         
@@ -88,6 +92,12 @@ public class FallingObject : MonoBehaviour
     private void HandleAlcCollision(Collision2D collision)
     {
         Destroy(collision.gameObject);
+        count = count + 1;
+
+        // Run the GameController function for picking up a collectible
+        gameControllerNew.OnPickUpFallingObject(count);
+
+        Debug.Log("FallingObject: colliding");
     }
     
 }

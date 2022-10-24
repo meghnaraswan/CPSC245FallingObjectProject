@@ -28,12 +28,14 @@ public class StartCountdown : MonoBehaviour
             count--;
         }
         timerText.text = "GO!";
+
+        yield return new WaitForSeconds(2);
         // count down is finished...
         StartGame();
     }
 
     void StartGame()
     {
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("SampleScene");
     }
 }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CountdownTimer : MonoBehaviour
 {
-    public float timeLimit = 15;
+    public float timeLimit = 20;
     private GameControllerNew gameControllerNew;
 
     private void Awake()
