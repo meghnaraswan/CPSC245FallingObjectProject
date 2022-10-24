@@ -32,10 +32,10 @@ public class InputController : MonoBehaviour
         switch (keyCode)
         {
             case KeyCode.RightArrow:
-                onInputLeft.Invoke();
+                onInputRight.Invoke();
                 break;
             case KeyCode.LeftArrow:
-                onInputRight.Invoke();
+                onInputLeft.Invoke();
                 break;
         }
     }
