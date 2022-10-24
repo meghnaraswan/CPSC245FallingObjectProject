@@ -2,7 +2,7 @@
 // ID: 002345622
 // Email: wrenn@chapman.edu
 // Course: CPSC-236-03
-// Assignment: Run Corgi Run
+// Assignment: 
 // This is my own work and I did not cheat on this assignment.
 
 // The purpose of this code is to randomly generate moonshine.
