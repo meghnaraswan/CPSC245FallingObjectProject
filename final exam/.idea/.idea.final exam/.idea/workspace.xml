@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7509321b-2278-43fc-9031-b3c9cd9e8579" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FallingObjects/Collision.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FallingObjects/Collision.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.final exam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.final exam/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +15,14 @@
     <setting file="file://$PROJECT_DIR$/../../../../../../School/Visual Programming/Run Corgi Run/Assets/Scripts/MoonshineDropper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../School/Visual Programming/Run Corgi Run/Assets/Scripts/ObjectPlacer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../../School/Visual Programming/Run Corgi Run/Assets/Scripts/ScreenPositionTools.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../../../../../School/Visual Programming/Run Corgi Run/Assets/Scripts/SpriteTools.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/Testing Scripts/DelayedObjectPlacer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/Testing Scripts/FallingObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/Testing Scripts/Moonshine.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/Testing Scripts/MoonshineDropper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/Testing Scripts/ObjectPlacer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$USER_HOME$/Desktop/Testing Scripts/SpriteTools.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ConstrainToScreen.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FallingObjects/Collision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FallingObjects/DelayedObjectPlacer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FallingObjects/FallingObject.cs" root0="FORCE_HIGHLIGHTING" />
