@@ -5,24 +5,33 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Keypad1))
-        {
-            SceneManager.LoadScene("SampleScene");
-        }
-        if (Input.GetKeyDown(KeyCode.Keypad2))
-        {
-            Application.Quit();
-        }
+    //private void Update()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.Keypad1))
+    //    {
+    //        SceneManager.LoadScene("CountdownScene");
+    //    }
+    //    if (Input.GetKeyDown(KeyCode.Keypad2))
+    //    {
+    //        Application.Quit();
+    //    }
 
+    //}
+
+    public void LoadScene()
+    {
+        SceneManager.LoadScene("CountdownScene");
+    }
+    public void QuitScene()
+    {
+        Application.Quit();
     }
 
     //public void LoadScene()
     //{
     //    if (Input.GetKeyDown(KeyCode.Keypad1))
     //    {
-    //        SceneManager.LoadScene("SampleScene");
+    //        SceneManager.LoadScene("CountdownScene");
     //    }
     //}
     //public void Quit()

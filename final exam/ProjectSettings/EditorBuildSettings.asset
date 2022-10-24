@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 6e6ef17f822c94a908e9a49bbfdfda93
   - enabled: 1
+    path: Assets/Scenes/CountdownScene.unity
+    guid: 3c3e36000cfe942a1ab308ad987ddabf
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects: {}
