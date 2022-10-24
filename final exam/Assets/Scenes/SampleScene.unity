@@ -1314,6 +1314,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FallingObject
       objectReference: {fileID: 0}
+    - target: {fileID: 2040249872872837415, guid: c53ec6cb9e7dc094fb9045aed835be3a, type: 3}
+      propertyPath: m_TagString
+      value: FallingObject
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c53ec6cb9e7dc094fb9045aed835be3a, type: 3}
 --- !u!224 &1197056740 stripped
