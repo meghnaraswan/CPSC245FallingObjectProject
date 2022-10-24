@@ -618,9 +618,9 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Press:
 
-    1 for Play
+    Press Space for Play
 
-    2 for Quit'
+    Press Esc for Quit'
 --- !u!222 &1065177862
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -6,6 +6,7 @@ public class CountdownTimer : MonoBehaviour
 {
     public float timeLimit = 20;
     private GameControllerNew gameControllerNew;
+    //private float objectsToSpawn = 20;
 
     private void Awake()
     {
@@ -22,6 +23,7 @@ public class CountdownTimer : MonoBehaviour
             gameControllerNew.StateUpdate(GameControllerNew.GameStatesN.GameLost);
             //Turn off this component, disables functionality so we don't spam the GameController
             this.enabled = false;
+
         }
 
         //cast time to an int
