@@ -22,7 +22,7 @@ ScreenPositionTools.cs
 StartCountdown.cs
 
 Known Errors/Special Features:
-none
+There were no errors, but, once we built the project, the aspect ratio was off and the falling objects were not spawning in the correct location, as it did in the Unity Scene. Otherwise, the Unity scene runs the game as it should.
 
 References:
 - RunCorgiRun Game from Visual Programming (helped with: FallingObject.cs, ObjectPlacer.cs, ConstrainToScreen.cs,ScreenPositionTools.cs, DelayedObjectPlacer.cs)
