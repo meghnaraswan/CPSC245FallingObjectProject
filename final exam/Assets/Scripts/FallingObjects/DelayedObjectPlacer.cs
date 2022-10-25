@@ -1,9 +1,8 @@
-// Name: Anna Wrenn
-// ID: 002345622
-// Email: wrenn@chapman.edu
-// Course: CPSC-236-03
-// Assignment: Run Corgi Run
-// This is my own work and I did not cheat on this assignment.
+// Name: Anna Wrenn and Meghna Raswan
+// ID: 002345622 and 002337415
+// Email: wrenn@chapman.edu and raswan@chapman.edu
+// Course: CPSC-245-01
+// Assignment: Exam 1
 
 // The purpose of this code is to place objects randomly with delays.
 
@@ -23,7 +22,8 @@ public class DelayedObjectPlacer : ObjectPlacer
     protected float maximumTimeToNextCreation = 3f;
 
     protected float secondsUntilCreation = 0f;
-    public SimpleTimer simpleTimer;
+    public CountdownTimer countdownTimer;
+    public float objectsToSpawn;
 
     void Start()
     {
@@ -38,14 +38,9 @@ public class DelayedObjectPlacer : ObjectPlacer
 
     void FixedUpdate()
     {
-        if (!isWaitingToCreate)
+        if (!isWaitingToCreate && (countdownTimer.timerCount > 0))
         {
             StartWaitingToCreate();
-        }
-
-        if (simpleTimer)
-        {
-            
         }
     }
 

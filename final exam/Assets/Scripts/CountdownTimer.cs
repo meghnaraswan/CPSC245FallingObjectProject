@@ -1,12 +1,20 @@
+// Name: Anna Wrenn and Meghna Raswan
+// ID: 002345622 and 002337415
+// Email: wrenn@chapman.edu and raswan@chapman.edu
+// Course: CPSC-245-01
+// Assignment: Exam 1
+
+// timer counting down from time limit
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class CountdownTimer : MonoBehaviour
 {
-    public float timeLimit = 20;
+    public float timeLimit = 30;
     private GameControllerNew gameControllerNew;
-    //private float objectsToSpawn = 20;
+    public int timerCount;
 
     private void Awake()
     {
@@ -27,7 +35,8 @@ public class CountdownTimer : MonoBehaviour
         }
 
         //cast time to an int
-        int timerCount = (int)timeSinceGamePlayingStarted;
+        timerCount = (int)timeSinceGamePlayingStarted;
+        Debug.Log(timerCount);
         //Update Timer text on screen
         gameControllerNew.UpdateGameTimer(timerCount);
     }

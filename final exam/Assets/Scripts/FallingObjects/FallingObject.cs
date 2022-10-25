@@ -1,3 +1,11 @@
+// Name: Anna Wrenn and Meghna Raswan
+// ID: 002345622 and 002337415
+// Email: wrenn@chapman.edu and raswan@chapman.edu
+// Course: CPSC-245-01
+// Assignment: Exam 1
+
+// class for falling objects
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -87,17 +95,5 @@ public class FallingObject : MonoBehaviour
 
         return amountToMove;
     }
-
-
-    //private void HandleAlcCollision(Collision2D collision)
-    //{
-    //    Destroy(collision.gameObject);
-    //    count = count + 1;
-
-    //    // Run the GameController function for picking up a collectible
-    //    gameControllerNew.OnPickUpFallingObject(count);
-
-    //    Debug.Log("FallingObject: colliding");
-    //}
     
 }

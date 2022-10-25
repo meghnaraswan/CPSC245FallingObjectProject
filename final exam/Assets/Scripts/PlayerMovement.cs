@@ -1,31 +1,17 @@
+// Name: Anna Wrenn and Meghna Raswan
+// ID: 002345622 and 002337415
+// Email: wrenn@chapman.edu and raswan@chapman.edu
+// Course: CPSC-245-01
+// Assignment: Exam 1
+
+// Player's position in the game when moving left or right
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    //private float xMin, xMax;
-    //private float yMin, yMax;
-
-    //void Start()
-    //{
-    //    var spriteSize = GetComponent<SpriteRenderer>().bounds.size.x * .5f; // Working with a simple box here, adapt to you necessity
-
-    //    var cam = Camera.main;// Camera component to get their size, if this change in runtime make sure to update values
-    //    var camHeight = cam.orthographicSize;
-    //    var camWidth = cam.orthographicSize * cam.aspect;
-
-    //    yMin = -camHeight + spriteSize; // lower bound
-    //    yMax = camHeight - spriteSize; // upper bound
-
-    //    xMin = -camWidth + spriteSize; // left bound
-    //    xMax = camWidth - spriteSize; // right bound 
-    //}
-
-    //void Update()
-    //{
-        
-    //}
 
     public void MoveRight()
     {

@@ -1,11 +1,10 @@
-// Name: Anna Wrenn
-// ID: 002345622
-// Email: wrenn@chapman.edu
-// Course: CPSC-236-03
-// Assignment: 
-// This is my own work and I did not cheat on this assignment.
+// Name: Anna Wrenn and Meghna Raswan
+// ID: 002345622 and 002337415
+// Email: wrenn@chapman.edu and raswan@chapman.edu
+// Course: CPSC-245-01
+// Assignment: Exam 1
 
-// The purpose of this code is to randomly generate moonshine.
+// The purpose of this code is to randomly generate falling objects
 
 using System.Collections;
 using System.Collections.Generic;
@@ -24,6 +23,6 @@ public class ObjectDropper : DelayedObjectPlacer
     public override void Create()
     {
         base.Create();
-        GameObject moonshine = Instantiate(Prefab, ScreenPositionTools.RandomTopOfScreenWorldLocation(Camera), Quaternion.identity, GameObject.FindGameObjectWithTag("Panel").transform);
+        GameObject fallingObjects = Instantiate(Prefab, ScreenPositionTools.RandomTopOfScreenWorldLocation(Camera), Quaternion.identity, GameObject.FindGameObjectWithTag("Panel").transform);
     }
 }
