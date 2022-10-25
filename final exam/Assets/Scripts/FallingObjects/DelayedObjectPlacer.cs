@@ -23,6 +23,7 @@ public class DelayedObjectPlacer : ObjectPlacer
     protected float maximumTimeToNextCreation = 3f;
 
     protected float secondsUntilCreation = 0f;
+    public SimpleTimer simpleTimer;
 
     void Start()
     {
@@ -40,6 +41,11 @@ public class DelayedObjectPlacer : ObjectPlacer
         if (!isWaitingToCreate)
         {
             StartWaitingToCreate();
+        }
+
+        if (simpleTimer)
+        {
+            
         }
     }
 
